@@ -1,6 +1,6 @@
 # Data Science Inventory
 
-Original repository author : Maj.  Devayani Pawar
+Original repository author : Devayani Pawar
 
 The repository includes:
 - [ ] [K- Nearest Neighbours](KNN.py)
