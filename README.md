@@ -4,12 +4,12 @@ Original repository author : Devayani Pawar
 
 The repository includes:
 
-- Applications of Data Mining 
-- [ ] [K- Nearest Neighbours from Scratch](Data-Science-Inventory\Knnfromscratch.py)
-- [ ] [Linear Regression - Closed-Form Vs Gradient Descent Vs Stochastic GD VS Regularized GD](Data-Science-Inventory\GradientDescent.ipynb
-)
-- [ ] [Imbalanced Data & Classification](Data-Science-Inventory\ImbalancedD.py)
-- [ ] [Regularization & Ridge Regression](Data-Science-Inventory\price_prediction.py)
+##Applications of Data Mining : 
 
-
+- [ ] [K- Nearest Neighbours](KNN\Knnfromscratch.py)
+- [ ] [Linear Regression with Gradient Descent](Linear_regression\GradientDescent.ipynb)
+- [ ] [Descision tree & Imbalanced Data ](Descision_tree\ImbalancedD.py)
+- [ ] [Regression & Regularization](Price_Prediction_Ridge_Regression\price_prediction.py)
+- [ ] [Recommender Systems]( Recommender_system)
+- [ ] [Clustering - K-means](Kmeans_clustering/Kmeansfromscratch.py)
 
