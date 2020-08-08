@@ -8,7 +8,7 @@ The repository includes:
 
 - [ ] [K- Nearest Neighbours](KNN/Knnfromscratch.py)
 - [ ] [Linear Regression with Gradient Descent](Linear_regression/GradientDescent.ipynb)
-- [ ] [Descision tree & Imbalanced Data ](Descision_tree/ImbalancedD.py)
+- [ ] [Descision tree & Imbalanced Data ](Decision_tree)
 - [ ] [Regression & Regularization](Price_Prediction_Ridge_Regression/price_prediction.py)
 - [ ] [Recommender Systems]( Recommender_system)
 - [ ] [Clustering - K-means](Kmeans_clustering/Kmeansfromscratch.py)
