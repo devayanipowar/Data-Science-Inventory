@@ -1,4 +1,4 @@
-#K - Nearest Neighbors 
+# K - Nearest Neighbors 
 
 add picture
 
@@ -13,11 +13,6 @@ euclidean or distance metrics. What this means is that the math is simple and he
 	- Find distance between the new point and exsting points
 	- Sort them with the closest to farthest
 	- Choose top k points and assign the most common class to the new point.
-*This helps you to predict where the new point lies in
+* This helps you to predict where the new point lies in
 
 
-Where you cannot use it:
-
-*You cannot use it if the classification is not linear. 
-
-####Fun fact: 
