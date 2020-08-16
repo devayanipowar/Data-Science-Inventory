@@ -5,8 +5,8 @@ Original repository author : Devayani Pawar
 The repository includes:
 
 ## Applications & Theory of  Data Mining & Machine Learning: 
-- [ ] Data
-	- [ ] [Extracting]
+- Data & Processing:
+	- [ ] [Collecting & Extracting](Data_extraction)
 	- [ ] [Cleaning , Transforming, Exploring] 
 	- [ ] [Feature Selection/ Extraction]
 	- [ ] [ Overfitting and Underfitting]
