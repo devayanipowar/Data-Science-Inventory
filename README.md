@@ -7,18 +7,18 @@ The repository includes:
 ## Applications & Theory of  Data Mining & Machine Learning: 
 
 #### Data & Processing:
-	- [ ] [Collecting & Extracting](Data_extraction)
-	- [ ] [Cleaning , Transforming, Exploring] 
-	- [ ] [Feature Selection/ Extraction]
-	- [ ] [ Overfitting and Underfitting]
-	- [ ] [ The Bias- Variance Trade-Off]
-	- [ ] [ Imbalanced Dataset]
-		- [ ] SMOTE
-		- [ ] Gradient boost
-	- [ ] [ Dimensionality Reduction]
-		- [ ] PCA
-		- [ ] t-SNE
-		- [ ] SVD
+- [ ] [Collecting & Extracting](Data_extraction)
+- [ ] [Cleaning , Transforming, Exploring] 
+- [ ] [Feature Selection/ Extraction]
+- [ ] [ Overfitting and Underfitting]
+- [ ] [ The Bias- Variance Trade-Off]
+- [ ] [ Imbalanced Dataset]
+	- [ ] SMOTE
+	- [ ] Gradient boost
+- [ ] [ Dimensionality Reduction]
+	- [ ] PCA
+	- [ ] t-SNE
+	- [ ] SVD
 
 #### Modeling
 
