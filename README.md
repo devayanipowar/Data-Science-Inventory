@@ -1,4 +1,4 @@
-# Data Science Inventory
+# Data Science Inventory [WIP]
 
 Original repository author : Devayani Pawar
 
@@ -7,15 +7,15 @@ The repository includes:
 ## Applications & Theory of  Data Mining & Machine Learning: 
 
 #### Data & Processing:
-- [ ] [Collecting & Extracting](Data_extraction)
-- [ ] [Cleaning , Transforming, Exploring] 
-- [ ] [Feature Selection/ Extraction]
-- [ ] [ Overfitting and Underfitting]
-- [ ] [ The Bias- Variance Trade-Off]
-- [ ] [ Imbalanced Dataset]
+- [ ] [Collecting & Extracting](Data_Extraction)
+- [ ] [Cleaning , Transforming, Exploring]()
+- [ ] [Feature Selection/ Extraction]()
+- [ ] [ Overfitting and Underfitting]()
+- [ ] [ The Bias- Variance Trade-Off]()
+- [ ] [ Imbalanced Dataset]()
 	- [ ] SMOTE
 	- [ ] Gradient boost
-- [ ] [ Dimensionality Reduction]
+- [ ] [ Dimensionality Reduction]()
 	- [ ] PCA
 	- [ ] t-SNE
 	- [ ] SVD
@@ -23,53 +23,56 @@ The repository includes:
 #### Modeling
 
 - [ ] [K- Nearest Neighbours](KNN/Knnfromscratch.py):
-	- [ ][ Distance Metrics ]
-	- [ ][ Curse of Dimensionality]
+	- [ ] Distance Metrics 
+	- [ ] Curse of Dimensionality
 
 - [ ] [Linear Regression with Gradient Descent](Linear_regression/GradientDescent.ipynb)	
-	- [ ] Linear Regression 
-	- [ ][ Gradient Descent Variants - Stochastic, Regularized]
-	- [ ] [ Logistic Regression]
-	- [ ]  [Maximum Likelihood Estimation]
+	- [ ] [Linear Regression]()
+	- [ ][ Gradient Descent Variants - Stochastic, Regularized]()
+	- [ ] [ Logistic Regression]()
+	- [ ]  [Maximum Likelihood Estimation]()
 	
 - [ ] [Clustering - K-means](Kmeans_clustering/Kmeansfromscratch.py)
-	- [ ] [ Unsupervised algorithms]
-	- [ ] [ Elbow Method]
-	- [ ] [ Bisecting Kmeans]
+	- [ ] [ Unsupervised algorithms]()
+	- [ ] [ Elbow Method]()
+	- [ ] [ Bisecting Kmeans]()
 
 - [ ] [Regression & Regularization](Price_Prediction_Ridge_Regression/price_prediction.py)
-	- [ ] [ Linear Regression and Multiple Regression]
-	- [ ] [ L1 & L2 Regularization]
-	- [ ] [ Overfitting]
+	- [ ] [ Linear Regression and Multiple Regression]()
+	- [ ] [ L1 & L2 Regularization]()
+	- [ ] [ Overfitting]()
 
 - [ ] [Descision tree & Imbalanced Data ](Decision_tree)
-	- [ ] [ Entropy and Information Gain]
-	- [ ] Random Forests and Bagging
-	- [ ] [ Ensemble tree models]
+	- [ ] [ Entropy and Information Gain](https://towardsdatascience.com/the-intuition-behind-shannons-entropy-e74820fe9800)
+	- [ ] [Random Forests and Bagging]()
+	- [ ] [ Ensemble tree models]()
 
 - [ ] Neural Networks 
-	- [ ] [ Logistic Regression & Sigmoid]
-	- [ ] [ Activation Function]
-	- [ ] [ Forward Propagation]
-	- [ ] [ Back Propagation]
-	- [ ] [ Gradient Descent and Neural Networks]
+	- [ ] [ Logistic Regression & Sigmoid]()
+	- [ ] [ Activation Function]()
+	- [ ] [ Forward Propagation]()
+	- [ ] [ Back Propagation]()
+	- [ ] [ Gradient Descent and Neural Networks]()
 
 - [ ] Support Vector Machines
-	- [ ] Maximum - Margin classifier
-	- [ ] Kernel methods
+	- [ ] [Maximum - Margin classifier]()
+	- [ ] [Kernel methods]()
 
 - [ ] [Recommender Systems]( Recommender_system)
 	- [ ] User based
 	- [ ] Item Based
 
+- [ ] Metrics
+	-[ ] [Shannon Entropy](https://towardsdatascience.com/the-intuition-behind-shannons-entropy-e74820fe9800)
+
 - [ ] Time Series
 
 - [ ] Natural Language Processing
-	- [ ] [Bag of words and vectorization]
-	- [ ] [ Distance metrics]
-	- [ ] [ Topic Modelling]
+	- [ ] [Bag of words and vectorization]()
+	- [ ] [ Distance metrics]()
+	- [ ] [ Topic Modelling]()
 
-- [ ] [Mining Massive Datasets]
+- [ ] Mining Massive Datasets
 	- [ ] [ Hadoop and HDFS]
 	- [ ] [ MapReduce]
 	- [ ] [ PySpark]	
@@ -118,9 +121,9 @@ The repository includes:
 #### References and Other cool things:
 
 #### Books I love and are not so hard to read/refer : 
-- Data Science From Scratch
-- Python For Data Analysis
-- Data Science For Business
-- Hands-On Machine Learning with Scikit-Learn and TensorFlow
+- [Data Science From Scratch]()
+- [Python For Data Analysis]()
+- [Data Science For Business]()
+- [Hands-On Machine Learning with Scikit-Learn and TensorFlow]()
 
 #### More Projects to be added: 
