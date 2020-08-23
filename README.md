@@ -63,7 +63,7 @@ The repository includes:
 	- [ ] Item Based
 
 - [ ] Metrics
-	-[ ] [Shannon Entropy](https://towardsdatascience.com/the-intuition-behind-shannons-entropy-e74820fe9800)
+	- [ ] [Shannon Entropy](https://towardsdatascience.com/the-intuition-behind-shannons-entropy-e74820fe9800)
 
 - [ ] Time Series
 
