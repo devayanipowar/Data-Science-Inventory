@@ -22,15 +22,15 @@ The repository includes:
 
 #### Modeling
 
-- [ ] [K- Nearest Neighbours](KNN/Knnfromscratch.py):
-	- [ ] Distance Metrics 
-	- [ ] Curse of Dimensionality
-
 - [ ] [Linear Regression with Gradient Descent](Linear_regression/GradientDescent.ipynb)	
-	- [ ] [Linear Regression]()
-	- [ ][ Gradient Descent Variants - Stochastic, Regularized]()
+	- [ ] [Linear modelling & Regression](Linear_regression)
+	- [ ] [Gradient Descent Variants - Stochastic, Regularized]()
 	- [ ] [ Logistic Regression]()
 	- [ ]  [Maximum Likelihood Estimation]()
+
+- [ ] [K- Nearest Neighbours](KNN/Knnfromscratch.py): 
+	- [ ] Distance Metrics 
+	- [ ] Curse of Dimensionality
 	
 - [ ] [Clustering - K-means](Kmeans_clustering/Kmeansfromscratch.py)
 	- [ ] [ Unsupervised algorithms]()
@@ -121,9 +121,9 @@ The repository includes:
 #### References and Other cool things:
 
 #### Books I love and are not so hard to read/refer : 
-- [Data Science From Scratch]()
-- [Python For Data Analysis]()
-- [Data Science For Business]()
-- [Hands-On Machine Learning with Scikit-Learn and TensorFlow]()
+- [ ] Data Science From Scratch
+- [ ] Python For Data Analysis
+- [ ] Data Science For Business
+- [ ] Hands-On Machine Learning with Scikit-Learn and TensorFlow
 
 #### More Projects to be added: 

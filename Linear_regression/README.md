@@ -12,18 +12,19 @@
 
 our model can explain this as:
 
-> t = *f*(x; w<sub>0</sub> + w<sub>1</sub>*x*
+> t = *f*(x; w<sub>0</sub> + w<sub>1</sub>*x*)
 > where x is food ad t is productivity
 
 We decide if our model is *good* by using the error function or the squared distance between the fitted (learned) value and target value. 
 
 > Accuracy in the model = Minimize Error 
+
 > Error = 
 
 
 
 
-Refer: https://www.youtube.com/watch?v=nk2CQITm_eo
+Refer: [Linear Models Pt.1 - Linear Regression](https://www.youtube.com/watch?v=nk2CQITm_eo)
 
 
 
