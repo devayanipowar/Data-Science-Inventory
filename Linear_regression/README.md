@@ -7,10 +7,18 @@
 
 **Example** : We are trying to find if eating healthy food (attribute) increases productivity (response). How would this "model" help you decide what to eat tomorrow based on last months diet? 
 
-> Linear relationship:
-> *y* = m*x* + c
+> Linear relationship between x and y:
+> *y* = m*x* + c 
 
+our model can explain this as:
 
+> t = *f*(x; w<sub>0</sub> + w<sub>1</sub>*x*
+> where x is food ad t is productivity
+
+We decide if our model is *good* by using the error function or the squared distance between the fitted (learned) value and target value. 
+
+> Accuracy in the model = Minimize Error 
+> Error = 
 
 
 
