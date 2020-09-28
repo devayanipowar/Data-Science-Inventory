@@ -26,7 +26,7 @@ The repository includes:
 	- [ ] [Linear modelling & Regression](Linear_regression)
 	- [ ] [Gradient Descent Variants - Stochastic, Regularized](Linear_regression/GradientDescent.ipynb)
 	- [ ] [ Logistic Regression]()
-	- [ ]  [Maximum Likelihood Estimation]()
+	- [ ]  [Maximum Likelihood Estimation](https://www.youtube.com/watch?v=XepXtl9YKwc)
 
 - [ ] [K- Nearest Neighbours](KNN/Knnfromscratch.py):
 	- [ ] Distance Metrics
