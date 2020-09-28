@@ -8,7 +8,7 @@ Created on Wed Sep 19 23:47:00 2018
 import nltk, string
 from sklearn.metrics import accuracy_score
 from sklearn.metrics.pairwise import cosine_similarity
-from nltk import word_tokenize          
+from nltk import word_tokenize
 from nltk.stem.porter import PorterStemmer
 from nltk.stem import WordNetLemmatizer
 import pandas as pd
@@ -23,56 +23,57 @@ import operator
 from collections import Counter
 from sklearn.metrics import accuracy_score
 #from textblob import TextBlob
+#nltk.download('punkt')
 
-#nltk.download('punkt') 
+# Step 1 - Bag of words concept and process wo
 stemmer = PorterStemmer()
 lemmatizer = WordNetLemmatizer()
-stop_words = set(stopwords.words('english')) 
+stop_words = set(stopwords.words('english'))
 def StemTokenizer(tokens):
 	return [stemmer.stem(token) for token in tokens]
 
 def Stemmer(text):
-    word_tokens = word_tokenize(text.lower()) 
-    filtered_sentence = [w for w in word_tokens if not w in stop_words] 
+    word_tokens = word_tokenize(text.lower())
+    filtered_sentence = [w for w in word_tokens if not w in stop_words]
     return StemTokenizer(filtered_sentence)
 
 def lemmaTokenizer(tokens):
     return [lemmatizer.lemmatize(token) for token in tokens]
 
 def lemmatize(text):
-    word_tokens = word_tokenize(text.lower()) 
-    filtered_sentence = [w for w in word_tokens if not w in stop_words] 
+    word_tokens = word_tokenize(text.lower())
+    filtered_sentence = [w for w in word_tokens if not w in stop_words]
     return lemmaTokenizer(filtered_sentence)
 
 class KNNClassifier():
     def fit(self, dtrain, ltrain):
         self.dtrain = dtrain
         self.ltrain = ltrain
-        self.vec_train = vec_tfidf.fit_transform(dtrain) 
-        
-    def predict(self, data_test, k):          
-        vec_test = vec_tfidf.transform(data_test)  
-        #print(vec_test.shape)        
-        cos_sim = cosine_similarity(self.vec_train, vec_test)        
+        self.vec_train = vec_tfidf.fit_transform(dtrain)
+
+    def predict(self, data_test, k):
+        vec_test = vec_tfidf.transform(data_test)
+        #print(vec_test.shape)
+        cos_sim = cosine_similarity(self.vec_train, vec_test)
         tcos_sim = np.transpose(cos_sim)
         neighbours = []
         for val in tcos_sim:
             distances = []
             for x in range(len(val)):
-                distances.append([x, val[x]])    
-            distances.sort(key=operator.itemgetter(1),reverse=True)       
+                distances.append([x, val[x]])
+            distances.sort(key=operator.itemgetter(1),reverse=True)
             neighbour = []
             print(distances[1][0])
             for x in range(k):
-                rowNo = distances[x][0]   
+                rowNo = distances[x][0]
                 #neighbour.append([self.ltrain[rowNo], distances[x][1] ])
                 neighbour.append(int(self.ltrain[rowNo]));
             #print(neighbour)
             counter=Counter(neighbour)
-            neighbours.append(counter.most_common(1)[0][0])  
+            neighbours.append(counter.most_common(1)[0][0])
             print(counter)
         return neighbours
-    
+
 
 def Load_text(x):
     text=[]
@@ -90,7 +91,7 @@ def Load_text(x):
 
 
 def Load_test(x):
-    text=[]    
+    text=[]
     counter=1
     with open(x) as f:
         for line in f:
@@ -110,8 +111,8 @@ print("loading test data....")
 test_data = Load_test("test.txt")
 #X_train, X_test, y_train, y_test = train_test_split(data_train, lable_train, test_size=0.2)
 
-#3 initialize Vectorizer 
-vec_tfidf = TfidfVectorizer(tokenizer=Stemmer ,sublinear_tf = True, min_df = 0.005, stop_words = 'english' )    
+#3 initialize Vectorizer
+vec_tfidf = TfidfVectorizer(tokenizer=Stemmer ,sublinear_tf = True, min_df = 0.005, stop_words = 'english' )
 #vec_tfidf = TfidfVectorizer(tokenizer=lemmatize, stop_words = 'english' )
 
 #4 initialize KNNClassifier

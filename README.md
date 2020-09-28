@@ -105,8 +105,7 @@ The repository includes:
 	- [ ] Scikit Learn
 
 #### Statistics & Probability
-- [ ] [Descriptive Statistics]()
-- [ ] [Correlation and Covariance]()
+- [ ] [Descriptive & Inferential Statistics](http://www.lithoguru.com/scientist/statistics/review.html)
 - [ ] [Distributions](https://www.youtube.com/watch?v=oI3hZJqXJuc&list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9&index=2)
 	- [ ] Probability distributions
 	- [ ] Exponential family
@@ -126,9 +125,8 @@ The repository includes:
 - [ ] [Matrices]()
 - [ ] [ Vectors ]()
 
-#### References and Other cool things:
 
-#### Books I love and are not so hard to read/refer :
+#### Books I love and not so hard to read/refer :
 - [ ] Data Science From Scratch
 - [ ] Python For Data Analysis
 - [ ] Data Science For Business
